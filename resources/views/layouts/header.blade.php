@@ -4,9 +4,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <title>Farid LKHALDOUNI</title>
-        <!-- asset -->
+        <!-- assets -->
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
         <script src="{{ URL::asset('js/app.js') }} "></script>
         <!-- CDN -->
@@ -22,5 +21,3 @@
         <div class="container">
             @yield('content')
         </div>
-        
-        
