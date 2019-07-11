@@ -18,6 +18,6 @@
 
         @include('layouts.navbar')
 
-        <div class="container">
+        <div>
             @yield('content')
         </div>
