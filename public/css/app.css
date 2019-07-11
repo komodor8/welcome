@@ -10652,6 +10652,12 @@ ul {
   color: #175C71;
 }
 
+.splash-title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
 .image-wrap {
   position: relative;
   text-align: center;
@@ -10660,15 +10666,6 @@ ul {
 
 .bg-w100 {
   width: 100%;
-}
-
-.splash-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  font-size: 50px;
 }
 
 @media only screen and (max-width: 600px) {
