@@ -11,17 +11,19 @@
 
     <div class="container">
         <div style="height: 100px;"></div>
-        <div class="d-flex justify-content-between">
-            <div class="w-50">
+        <div class="col-xs-12 d-flex justify-content-between">
+            <div class="col-xs-6">
                 <h1 class="mb-3">Présentation</h1>
-                <section class="mb-3">
+                <section class="mb-4">
                     Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les 
                     meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et 
                     ergonomiques pour s’adapter aux besoins de l’utilisateur.
                     Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.
                 </section>
+                <br />
                 <section>
                     <strong>Méthode Agile</strong>
+                    <br />
                     Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et 
                     anticiper les besoins du client. C’est la méthode agile.
                     Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.
@@ -30,9 +32,8 @@
                 </section>
             </div>
             
-            <div class="w-50">
+            <div>
                 <img src="/images/avatar.png" width="100%">
-                <div style="height: 100px;"></div>
             </div>
         </div>
         
