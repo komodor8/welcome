@@ -11,8 +11,8 @@
 
     <div class="container">
         <div style="height: 100px;"></div>
-        <div class="col-xs-12 d-flex justify-content-between">
-            <div class="col-xs-6">
+        <div class="col-md-12 row">
+            <div class="col-md-6">
                 <h1 class="mb-3">Présentation</h1>
                 <section class="mb-4">
                     Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les 
@@ -32,7 +32,7 @@
                 </section>
             </div>
             
-            <div>
+            <div class="col-md-6">
                 <img src="/images/avatar.png" width="100%">
             </div>
         </div>
