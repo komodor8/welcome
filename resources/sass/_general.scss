@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: $blue;
+}
+
+// Splash screen
+.splash-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Open Sans";
+}
+.image-wrap {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bg-w100 {
+    width: 100%;
+}
+
+// If the browser window is 600px or smaller we change to 30 px
+@media only screen and (max-width: 600px) 
+{
+    .splash-title
+    {
+        font-size: 30px;
+    }
+}
+// If the browser window is 600px or bigger we change to 40 px
+@media only screen and (min-width: 600px) 
+{
+    .splash-title
+    {
+        font-size: 40px;
+    }
+}
+
+//  If the browser window is 600px or bigger we change to 50 px
+@media only screen and (min-width: 1200px) 
+{
+    .splash-title
+    {
+        font-size: 50px;
+    }
+}
+
