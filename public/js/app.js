@@ -1862,10 +1862,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/index.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Welcome/index.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/components/skills.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Welcome/components/skills.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1903,9 +1903,99 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/index.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Welcome/index.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_skills_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/skills.vue */ "./resources/js/components/Welcome/components/skills.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
+  components: {
+    skills: _components_skills_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -37237,10 +37327,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/index.vue?vue&type=template&id=6eeacdec&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Welcome/index.vue?vue&type=template&id=6eeacdec& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/components/skills.vue?vue&type=template&id=7c0f25da&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Welcome/components/skills.vue?vue&type=template&id=7c0f25da& ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -37259,34 +37349,188 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticStyle: { height: "100px" } }),
+    return _c("div", [
+      _c("h1", { staticClass: "mb-5" }, [_vm._v("Compétences générales")]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-12 row" }, [
-        _c("div", { staticClass: "col-md-6" }, [
-          _c("h1", { staticClass: "mb-3" }, [_vm._v("Présentation")]),
-          _vm._v(" "),
-          _c("section", { staticClass: "mb-4" }, [
-            _vm._v(
-              "\n                Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les \n                meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et \n                ergonomiques pour s’adapter aux besoins de l’utilisateur.\n                Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.\n            "
-            )
+      _c("div", { staticClass: "d-flex justify-content-between" }, [
+        _c("div", { staticClass: "col-md-5 mb-3 p-3" }, [
+          _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
+            _c("img", {
+              staticClass: "mr-3",
+              attrs: { src: "/images/dev.png", width: "10%" }
+            }),
+            _vm._v(" "),
+            _c("div", [_c("strong", [_vm._v("Backend")])]),
+            _vm._v(" "),
+            _c("div")
           ]),
           _vm._v(" "),
-          _c("br"),
+          _c("div", { staticClass: "mb-5" }, [
+            _c("img", { attrs: { src: "/images/laravel.png", width: "20%" } }),
+            _vm._v(" "),
+            _c("span", { staticClass: "ml-3" }, [
+              _c("strong", [_vm._v("Framework laravel")])
+            ])
+          ]),
           _vm._v(" "),
           _c("section", [
-            _c("strong", [_vm._v("Méthode Agile")]),
-            _vm._v(" "),
-            _c("br"),
             _vm._v(
-              "\n                Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et \n                anticiper les besoins du client. C’est la méthode agile.\n                Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n                Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client \n                et l’utilisateur final.\n            "
+              "\n                Les sites sont fait en PHP avec le framework Laravel qui offre un panel de services large et puissant. Ces services permet la gestion des BDD avec le créateur de requêtes SQL et un ORM performants, un constructeur de formulaire très pratique, un système de routage performant, un système d’envoi de mail.\n            "
             )
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c("img", { attrs: { src: "/images/avatar.png", width: "100%" } })
+        _c("div", { staticClass: "col-md-5 mb-3 p-3" }, [
+          _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
+            _c("img", {
+              staticClass: "mr-3",
+              attrs: { src: "/images/pencil.png", width: "8%" }
+            }),
+            _vm._v(" "),
+            _c("div", [_c("strong", [_vm._v("Frontend")])]),
+            _vm._v(" "),
+            _c("div")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "d-flex justify-content-between mb-5" }, [
+            _c("img", { attrs: { src: "/images/vue.png", width: "20%" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/js.png", width: "20%" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/htmlcss.png", width: "20%" } })
+          ]),
+          _vm._v(" "),
+          _c("section", [
+            _vm._v(
+              "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
+            )
+          ])
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "d-flex justify-content-between" }, [
+        _c("div", { staticClass: "col-md-5 mb-3 p-3" }, [
+          _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
+            _c("img", {
+              staticClass: "mr-3",
+              attrs: { src: "/images/cms.svg", width: "10%" }
+            }),
+            _vm._v(" "),
+            _c("div", [
+              _c("strong", [_vm._v("CMS - Content Management System")])
+            ]),
+            _vm._v(" "),
+            _c("div")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "d-flex justify-content-around mb-5" }, [
+            _c("img", {
+              attrs: { src: "/images/wordpress.jpeg", width: "20%" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: { src: "/images/processwire.jpg", width: "30%" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("section", [
+            _vm._v(
+              "\n                Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.\n            "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-5 mb-3 p-3" }, [
+          _c("div", { staticClass: "mb-3 d-flex justify-content-between" }, [
+            _c("img", {
+              staticClass: "mr-3",
+              attrs: { src: "/images/mobiledev.png", width: "8%" }
+            }),
+            _vm._v(" "),
+            _c("div", [
+              _c("strong", [_vm._v("Applications mobiles avec React Native")])
+            ]),
+            _vm._v(" "),
+            _c("div")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "d-flex justify-content-center mb-5" }, [
+            _c("img", { attrs: { src: "/images/rn.png", width: "20%" } })
+          ]),
+          _vm._v(" "),
+          _c("section", [
+            _vm._v(
+              "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/index.vue?vue&type=template&id=6eeacdec&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Welcome/index.vue?vue&type=template&id=6eeacdec& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("div", { staticStyle: { height: "100px" } }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("skills")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-12 row mb-5" }, [
+      _c("div", { staticClass: "col-md-6" }, [
+        _c("h1", { staticClass: "mb-3" }, [_vm._v("Présentation")]),
+        _vm._v(" "),
+        _c("section", { staticClass: "mb-4" }, [
+          _vm._v(
+            "\n                Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les \n                meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et \n                ergonomiques pour s’adapter aux besoins de l’utilisateur.\n                Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("section", [
+          _c("strong", [_vm._v("Méthode Agile")]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(
+            "\n                Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et \n                anticiper les besoins du client. C’est la méthode agile.\n                Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n                Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client \n                et l’utilisateur final.\n            "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6" }, [
+        _c("img", { attrs: { src: "/images/avatar.png", width: "100%" } })
       ])
     ])
   }
@@ -49598,6 +49842,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Welcome/components/skills.vue":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/Welcome/components/skills.vue ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _skills_vue_vue_type_template_id_7c0f25da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./skills.vue?vue&type=template&id=7c0f25da& */ "./resources/js/components/Welcome/components/skills.vue?vue&type=template&id=7c0f25da&");
+/* harmony import */ var _skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./skills.vue?vue&type=script&lang=js& */ "./resources/js/components/Welcome/components/skills.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _skills_vue_vue_type_template_id_7c0f25da___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _skills_vue_vue_type_template_id_7c0f25da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Welcome/components/skills.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Welcome/components/skills.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/Welcome/components/skills.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./skills.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/components/skills.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_skills_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Welcome/components/skills.vue?vue&type=template&id=7c0f25da&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/Welcome/components/skills.vue?vue&type=template&id=7c0f25da& ***!
+  \**********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_skills_vue_vue_type_template_id_7c0f25da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./skills.vue?vue&type=template&id=7c0f25da& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Welcome/components/skills.vue?vue&type=template&id=7c0f25da&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_skills_vue_vue_type_template_id_7c0f25da___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_skills_vue_vue_type_template_id_7c0f25da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div style="height: 100px;"></div>
-        <div class="col-md-12 row">
+        <div class="col-md-12 row mb-5">
             <div class="col-md-6">
                 <h1 class="mb-3">Présentation</h1>
                 <section class="mb-4">
@@ -27,13 +27,18 @@
             </div>
         </div>
         
+        <skills></skills>
+        
     </div>
 </template>
 
 <script>
+    import skills from "./components/skills.vue";
+
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+
+        components: {
+            skills
+        },
     }
 </script>
