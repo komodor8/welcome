@@ -2,6 +2,18 @@ ul {
     list-style-type: none;
 }
 
+.show-list-circle {
+    list-style-type: circle;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+    // color: 500;
+}
+
 .nav-link {
     color: $blue;
 }
@@ -22,7 +34,7 @@ ul {
 }
 
 // If the browser window is 600px or smaller we change to 30 px
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px)
 {
     .splash-title
     {
@@ -30,7 +42,7 @@ ul {
     }
 }
 // If the browser window is 600px or bigger we change to 40 px
-@media only screen and (min-width: 600px) 
+@media only screen and (min-width: 600px)
 {
     .splash-title
     {
@@ -39,7 +51,7 @@ ul {
 }
 
 //  If the browser window is 600px or bigger we change to 50 px
-@media only screen and (min-width: 1200px) 
+@media only screen and (min-width: 1200px)
 {
     .splash-title
     {
