@@ -3,7 +3,7 @@
         <h1 class="mb-5">Compétences générales</h1>
         <div class="d-flex justify-content-between">
 
-            <div class="col-md-5 mb-3 p-3">
+            <div class="col-md-5 mb-5 p-3 rounded bg-info">
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/dev.png" width="10%" class="mr-3">
                     <div><strong>Backend</strong></div>
@@ -18,7 +18,7 @@
                 </section>
             </div>
 
-            <div class="col-md-5 mb-3 p-3">
+            <div class="col-md-5 mb-5 p-3 rounded bg-info">
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/pencil.png" width="8%" class="mr-3">
                     <div><strong>Frontend</strong></div>
@@ -38,22 +38,22 @@
 
         <div class="d-flex justify-content-between">
 
-            <div class="col-md-5 mb-3 p-3">
+            <div class="col-md-5 mb-5 p-3 rounded bg-info">
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/cms.svg" width="10%" class="mr-3">
                     <div><strong>CMS - Content Management System</strong></div>
                     <div></div>
                 </div>
                 <div class="d-flex justify-content-around mb-5">
-                    <img src="/images/wordpress.jpeg" width="20%">
-                    <img src="/images/processwire.jpg" width="30%">
+                    <img src="/images/wordpress.png" width="20%">
+                    <img src="/images/processwire.png" width="20%">
                 </div>
                 <section>
                     Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.
                 </section>
             </div>
 
-            <div class="col-md-5 mb-3 p-3">
+            <div class="col-md-5 mb-5 p-3 rounded bg-info">
                 <div class="mb-3 d-flex justify-content-between">
                     <img src="/images/mobiledev.png" width="8%" class="mr-3">
                     <div><strong>Applications mobiles avec React Native</strong></div>
