@@ -7,7 +7,7 @@
         <title>Farid LKHALDOUNI</title>
         <!-- assets -->
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
-        
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
@@ -15,11 +15,11 @@
     <body>
 
         @include('layouts.navbar')
-        
+
         <div id="app">
             @yield('content')
         </div>
+
         <script src="{{ URL::asset('js/app.js') }} "></script>
-            
     </body>
 </html>

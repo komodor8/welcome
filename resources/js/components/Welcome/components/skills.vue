@@ -3,7 +3,11 @@
         <h1 class="mb-5">Compétences générales</h1>
         <div class="d-flex justify-content-between">
 
-            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
+            <div
+                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                data-aos="fade-right"
+                data-aos-duration="200"
+            >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/dev.png" width="10%" class="mr-3">
                     <div><strong>Backend</strong></div>
@@ -18,7 +22,11 @@
                 </section>
             </div>
 
-            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
+            <div
+                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                data-aos="fade-left"
+                data-aos-duration="500"
+            >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/pencil.png" width="8%" class="mr-3">
                     <div><strong>Frontend</strong></div>
@@ -38,7 +46,11 @@
 
         <div class="d-flex justify-content-between">
 
-            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
+            <div
+                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                data-aos="fade-right"
+                data-aos-duration="700"
+            >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/cms.svg" width="10%" class="mr-3">
                     <div><strong>CMS - Content Management System</strong></div>
@@ -53,7 +65,11 @@
                 </section>
             </div>
 
-            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
+            <div
+                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                data-aos="fade-left"
+                data-aos-duration="700"
+            >
                 <div class="mb-3 d-flex justify-content-between">
                     <img src="/images/mobiledev.png" width="8%" class="mr-3">
                     <div><strong>Applications mobiles avec React Native</strong></div>
