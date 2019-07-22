@@ -3,7 +3,7 @@
         <h1 class="mb-5">Compétences générales</h1>
         <div class="d-flex justify-content-between">
 
-            <div class="col-md-5 mb-5 p-3 rounded bg-info">
+            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/dev.png" width="10%" class="mr-3">
                     <div><strong>Backend</strong></div>
@@ -18,7 +18,7 @@
                 </section>
             </div>
 
-            <div class="col-md-5 mb-5 p-3 rounded bg-info">
+            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/pencil.png" width="8%" class="mr-3">
                     <div><strong>Frontend</strong></div>
@@ -38,7 +38,7 @@
 
         <div class="d-flex justify-content-between">
 
-            <div class="col-md-5 mb-5 p-3 rounded bg-info">
+            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/cms.svg" width="10%" class="mr-3">
                     <div><strong>CMS - Content Management System</strong></div>
@@ -53,7 +53,7 @@
                 </section>
             </div>
 
-            <div class="col-md-5 mb-5 p-3 rounded bg-info">
+            <div class="col-md-5 mb-5 p-3 rounded border bg-info">
                 <div class="mb-3 d-flex justify-content-between">
                     <img src="/images/mobiledev.png" width="8%" class="mr-3">
                     <div><strong>Applications mobiles avec React Native</strong></div>
@@ -66,13 +66,13 @@
                     Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.
                 </section>
             </div>
-            
+
         </div>
     </div>
 </template>
 
 <script>
-    
+
     export default {
 
     }

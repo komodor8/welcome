@@ -1,11 +1,12 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
 // Variables
 @import 'variables';
 
-// timeline
+// Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
 // Created
 @import 'general';
+@import 'timeline';

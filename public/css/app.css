@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10648,6 +10648,14 @@ ul {
   list-style-type: none;
 }
 
+.show-list-circle {
+  list-style-type: circle;
+}
+
+strong {
+  font-weight: bold;
+}
+
 .nav-link {
   color: #175C71;
 }
@@ -10684,5 +10692,9 @@ ul {
   .splash-title {
     font-size: 50px;
   }
+}
+
+.timeline-item .title-item {
+  font-weight: bold !important;
 }
 
