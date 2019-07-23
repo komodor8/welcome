@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="row bg-danger py-5 px-3 mb-5">
         <h1 class="mb-5">Formation</h1>
         <Timeline
               :timeline-items="dataTimeline"

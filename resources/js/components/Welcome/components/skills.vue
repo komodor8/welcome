@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="row bg-danger p-3 mb-5">
         <h1 class="mb-5">Compétences générales</h1>
-        <div class="d-flex justify-content-between">
+        <div class="row d-flex justify-content-between p-3">
 
             <div
-                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
                 data-aos="fade-right"
                 data-aos-duration="200"
             >
@@ -23,7 +23,7 @@
             </div>
 
             <div
-                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
                 data-aos="fade-left"
                 data-aos-duration="500"
             >
@@ -44,10 +44,10 @@
 
         </div>
 
-        <div class="d-flex justify-content-between">
+        <div class="row d-flex justify-content-between p-3">
 
             <div
-                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
                 data-aos="fade-right"
                 data-aos-duration="700"
             >
@@ -66,12 +66,12 @@
             </div>
 
             <div
-                class="col-md-5 mb-5 p-3 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
                 data-aos="fade-left"
                 data-aos-duration="700"
             >
                 <div class="mb-3 d-flex justify-content-between">
-                    <img src="/images/mobiledev.png" width="8%" class="mr-3">
+                    <img src="/images/mobiledev.png" width="10px" class="mr-3">
                     <div><strong>Applications mobiles avec React Native</strong></div>
                     <div></div>
                 </div>

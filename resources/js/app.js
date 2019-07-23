@@ -7,7 +7,9 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+
 import "../../node_modules/timeline-vuejs/dist/timeline-vuejs.css";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();

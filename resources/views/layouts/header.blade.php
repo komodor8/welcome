@@ -14,7 +14,9 @@
 
     <body>
 
-        @include('layouts.navbar')
+        <header>
+            @include('layouts.navbar')
+        </header>
 
         <div id="app">
             @yield('content')

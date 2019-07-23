@@ -1,20 +1,12 @@
 <template>
     <div class="container">
-        <div class="col-md-12 bg-danger p-5 mb-5">
             <presentation></presentation>
-        </div>
 
-        <div class="col-md-12 bg-danger p-5 mb-5">
             <skills></skills>
-        </div>
 
-        <div class="col-md-12 bg-danger p-5 mb-5">
             <experiences></experiences>
-        </div>
 
-        <div class="col-md-12 bg-danger p-5 mb-5">
             <training></training>
-        </div>
     </div>
 </template>
 

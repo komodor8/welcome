@@ -2184,14 +2184,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -39760,6 +39752,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "row bg-danger py-5 px-2 mb-5" },
     [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Expériences")]),
       _vm._v(" "),
@@ -39805,7 +39798,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row mb-5" }, [
+    return _c("div", { staticClass: "row mb-5 p-3 bg-danger" }, [
       _c("div", { staticClass: "col-md-6" }, [
         _c("h1", { staticClass: "mb-5" }, [_vm._v("Présentation")]),
         _vm._v(" "),
@@ -39861,14 +39854,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "row bg-danger p-3 mb-5" }, [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Compétences générales")]),
       _vm._v(" "),
-      _c("div", { staticClass: "d-flex justify-content-between" }, [
+      _c("div", { staticClass: "row d-flex justify-content-between p-3" }, [
         _c(
           "div",
           {
-            staticClass: "col-md-5 mb-5 p-3 rounded border bg-info",
+            staticClass: "col-12 col-md-5 mb-5 p-3 rounded border bg-info",
             attrs: { "data-aos": "fade-right", "data-aos-duration": "200" }
           },
           [
@@ -39904,7 +39897,7 @@ var staticRenderFns = [
         _c(
           "div",
           {
-            staticClass: "col-md-5 mb-5 p-3 rounded border bg-info",
+            staticClass: "col-12 col-md-5 mb-5 p-3 rounded border bg-info",
             attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
           },
           [
@@ -39936,11 +39929,11 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "d-flex justify-content-between" }, [
+      _c("div", { staticClass: "row d-flex justify-content-between p-3" }, [
         _c(
           "div",
           {
-            staticClass: "col-md-5 mb-5 p-3 rounded border bg-info",
+            staticClass: "col-12 col-md-5 mb-5 p-3 rounded border bg-info",
             attrs: { "data-aos": "fade-right", "data-aos-duration": "700" }
           },
           [
@@ -39978,14 +39971,14 @@ var staticRenderFns = [
         _c(
           "div",
           {
-            staticClass: "col-md-5 mb-5 p-3 rounded border bg-info",
+            staticClass: "col-12 col-md-5 mb-5 p-3 rounded border bg-info",
             attrs: { "data-aos": "fade-left", "data-aos-duration": "700" }
           },
           [
             _c("div", { staticClass: "mb-3 d-flex justify-content-between" }, [
               _c("img", {
                 staticClass: "mr-3",
-                attrs: { src: "/images/mobiledev.png", width: "8%" }
+                attrs: { src: "/images/mobiledev.png", width: "10px" }
               }),
               _vm._v(" "),
               _c("div", [
@@ -40033,6 +40026,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "row bg-danger py-5 px-3 mb-5" },
     [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Formation")]),
       _vm._v(" "),
@@ -40070,35 +40064,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      { staticClass: "col-md-12 bg-danger p-5 mb-5" },
-      [_c("presentation")],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-md-12 bg-danger p-5 mb-5" },
-      [_c("skills")],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-md-12 bg-danger p-5 mb-5" },
-      [_c("experiences")],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-md-12 bg-danger p-5 mb-5" },
-      [_c("training")],
-      1
-    )
-  ])
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("presentation"),
+      _vm._v(" "),
+      _c("skills"),
+      _vm._v(" "),
+      _c("experiences"),
+      _vm._v(" "),
+      _c("training")
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
