@@ -22,6 +22,8 @@
             @yield('content')
         </div>
 
+        @include('layouts.footer')
+
         <script src="{{ URL::asset('js/app.js') }} "></script>
     </body>
 </html>

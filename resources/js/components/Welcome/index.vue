@@ -1,12 +1,15 @@
 <template>
     <div class="container">
-            <presentation></presentation>
+        <presentation></presentation>
 
-            <skills></skills>
+         <skills></skills>
 
-            <experiences></experiences>
+       <experiences></experiences>
 
-            <training></training>
+     <training></training>
+
+     <mailme></mailme>
+
     </div>
 </template>
 
@@ -15,11 +18,12 @@
     import presentation from "./components/presentation.vue";
     import skills from "./components/skills.vue";
     import training from "./components/training.vue";
+    import mailme from "./components/mailme.vue";
 
     export default {
 
         components: {
-            experiences, presentation, skills, training
+            experiences, mailme, presentation, skills, training
         },
     }
 </script>

@@ -1,20 +1,20 @@
 <template>
-    <div class="row bg-danger p-3 mb-5">
+    <div class="no-gutters bg-danger my-md-5 p-md-5">
         <h1 class="mb-5">Compétences générales</h1>
-        <div class="row d-flex justify-content-between p-3">
+        <div class="row d-flex justify-content-between">
 
             <div
-                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
-                data-aos="fade-right"
-                data-aos-duration="200"
+                class="col-12 col-md-5 mb-5 rounded border bg-info"
+
+
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/dev.png" width="10%" class="mr-3">
+                    <img src="/images/dev.png" class="responsive">
                     <div><strong>Backend</strong></div>
                     <div></div>
                 </div>
                 <div class="mb-5">
-                    <img src="/images/laravel.png" width="20%">
+                    <img src="/images/laravel.png" class="responsive">
                     <span class="ml-3"><strong>Framework laravel</strong></span>
                 </div>
                 <section>
@@ -23,42 +23,39 @@
             </div>
 
             <div
-                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
-                data-aos="fade-left"
-                data-aos-duration="500"
+                class="col-12 col-md-5 mb-5 rounded border bg-info"
+
+
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/pencil.png" width="8%" class="mr-3">
+                    <img src="/images/pencil.png" class="responsive">
                     <div><strong>Frontend</strong></div>
                     <div></div>
                 </div>
                 <div class="d-flex justify-content-between mb-5">
-                    <img src="/images/vue.png" width="20%">
-                    <img src="/images/js.png" width="20%">
-                    <img src="/images/htmlcss.png" width="20%">
+                    <img src="/images/vue.png" class="responsive">
+                    <img src="/images/js.png" class="responsive">
+                    <img src="/images/htmlcss.png" class="responsive">
                 </div>
                 <section>
                     Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.
                 </section>
             </div>
 
-        </div>
-
-        <div class="row d-flex justify-content-between p-3">
 
             <div
-                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
-                data-aos="fade-right"
-                data-aos-duration="700"
+                class="col-12 col-md-5 mb-5 rounded border bg-info"
+
+
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/cms.svg" width="10%" class="mr-3">
+                    <img src="/images/cms.svg" class="responsive">
                     <div><strong>CMS - Content Management System</strong></div>
                     <div></div>
                 </div>
                 <div class="d-flex justify-content-around mb-5">
-                    <img src="/images/wordpress.png" width="20%">
-                    <img src="/images/processwire.png" width="20%">
+                    <img src="/images/wordpress.png" class="responsive">
+                    <img src="/images/processwire.png" class="responsive">
                 </div>
                 <section>
                     Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.
@@ -66,24 +63,24 @@
             </div>
 
             <div
-                class="col-12 col-md-5 mb-5 p-3 rounded border bg-info"
-                data-aos="fade-left"
-                data-aos-duration="700"
+                class="col-12 col-md-5 mb-5 rounded border bg-info"
+
+
             >
                 <div class="mb-3 d-flex justify-content-between">
-                    <img src="/images/mobiledev.png" width="10px" class="mr-3">
+                    <img src="/images/mobiledev.png" class="responsive">
                     <div><strong>Applications mobiles avec React Native</strong></div>
                     <div></div>
                 </div>
                 <div class="d-flex justify-content-center mb-5">
-                    <img src="/images/rn.png" width="20%">
+                    <img src="/images/rn.png" class="responsive">
                 </div>
                 <section>
                     Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.
                 </section>
             </div>
-
         </div>
+
     </div>
 </template>
 

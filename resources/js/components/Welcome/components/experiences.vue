@@ -1,13 +1,13 @@
 <template>
-    <div class="row bg-danger py-5 px-2 mb-5">
+    <div class="no-gutters bg-danger my-md-5 p-md-5">
         <h1 class="mb-5">Expériences</h1>
-            <Timeline
-                :timeline-items="dataTimeline"
-                :message-when-no-items="messageWhenNoItems"
-                :unique-year="true"
-                order="desc"
-                colorDots="#FF00EB"
-            />
+        <Timeline
+            :timeline-items="dataTimeline"
+            :message-when-no-items="messageWhenNoItems"
+            :unique-year="true"
+            order="desc"
+            colorDots="#FF00EB"
+        />
     </div>
 </template>
 

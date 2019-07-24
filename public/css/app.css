@@ -10652,6 +10652,17 @@ ul {
   list-style-type: circle;
 }
 
+.no-gutters {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 55px;
+  height: auto;
+}
+
 strong {
   font-weight: bold;
 }
