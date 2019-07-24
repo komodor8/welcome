@@ -30,6 +30,8 @@ class MailMe extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.mail-me');
+        return $this->from($this->contactInformation->email)
+                ->subject('New contact from my website')
+                ->markdown('emails.mail-me');
     }
 }

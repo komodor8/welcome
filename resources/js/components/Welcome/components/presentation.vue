@@ -1,9 +1,9 @@
 <template>
     <div
-        class="row p-1 my-5 my-md-5 p-md-5 bg-light" id="presentation"
+        class="row d-flex align-items-center p-1 my-5 my-md-5 p-md-5 bg-light"
         id="presentation"
     >
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h1 class="mb-5">Présentation</h1>
             <section class="mb-4">
                 Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les
@@ -23,7 +23,7 @@
             </section>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-4">
             <img src="/images/avatar.png" width="100%">
         </div>
     </div>

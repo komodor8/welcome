@@ -39853,12 +39853,12 @@ var staticRenderFns = [
         attrs: { id: "mailme" }
       },
       [
-        _c("h1", [_vm._v("Contact me")]),
+        _c("h1", [_vm._v("Contactez-moi")]),
         _vm._v(" "),
         _c("form", { attrs: { method: "POST", action: "/api/send-mail" } }, [
           _c("div", { staticClass: "form-group" }, [
             _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-              _vm._v("Nom et prénom")
+              _vm._v("Votre nom:")
             ]),
             _vm._v(" "),
             _c("input", {
@@ -39866,14 +39866,15 @@ var staticRenderFns = [
               attrs: {
                 type: "text",
                 name: "name",
-                placeholder: "Nom et prénom"
+                placeholder: "Nom et prénom",
+                required: ""
               }
             })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "form-group" }, [
             _c("label", { attrs: { for: "exampleFormControlInput2" } }, [
-              _vm._v("Email address")
+              _vm._v("Votre email:")
             ]),
             _vm._v(" "),
             _c("input", {
@@ -39881,26 +39882,27 @@ var staticRenderFns = [
               attrs: {
                 type: "email",
                 name: "email",
-                placeholder: "name@example.com"
+                placeholder: "name@example.com",
+                required: ""
               }
             })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "form-group" }, [
             _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
-              _vm._v("Example textarea")
+              _vm._v("Votre message:")
             ]),
             _vm._v(" "),
             _c("textarea", {
               staticClass: "form-control",
-              attrs: { name: "description", rows: "3" }
+              attrs: { name: "description", rows: "3", required: "" }
             })
           ]),
           _vm._v(" "),
           _c(
             "button",
             { staticClass: "btn btn-primary mb-2", attrs: { type: "submit" } },
-            [_vm._v("Envoyer")]
+            [_vm._v("Envoyez votre email")]
           )
         ])
       ]
@@ -39924,8 +39926,54 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
-var staticRenderFns = []
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "row d-flex align-items-center p-1 my-5 my-md-5 p-md-5 bg-light",
+        attrs: { id: "presentation" }
+      },
+      [
+        _c("div", { staticClass: "col-md-8" }, [
+          _c("h1", { staticClass: "mb-5" }, [_vm._v("Présentation")]),
+          _vm._v(" "),
+          _c("section", { staticClass: "mb-4" }, [
+            _vm._v(
+              "\n            Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les\n            meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et\n            ergonomiques pour s’adapter aux besoins de l’utilisateur.\n            Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("section", [
+            _c("strong", [_vm._v("Méthode Agile")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n            Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et\n            anticiper les besoins du client. C’est la méthode agile.\n            Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n            Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client\n            et l’utilisateur final.\n        "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", { attrs: { src: "/images/avatar.png", width: "100%" } })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
 
 
 
@@ -39975,7 +40023,7 @@ var staticRenderFns = [
                 { staticClass: "mb-5 d-flex justify-content-between" },
                 [
                   _c("img", {
-                    staticClass: "responsive",
+                    staticClass: "responsive-title",
                     attrs: { src: "/images/dev.png" }
                   }),
                   _vm._v(" "),
@@ -40016,7 +40064,7 @@ var staticRenderFns = [
                 { staticClass: "mb-5 d-flex justify-content-between" },
                 [
                   _c("img", {
-                    staticClass: "responsive",
+                    staticClass: "responsive-title",
                     attrs: { src: "/images/pencil.png" }
                   }),
                   _vm._v(" "),
@@ -40067,7 +40115,7 @@ var staticRenderFns = [
                 { staticClass: "mb-5 d-flex justify-content-between" },
                 [
                   _c("img", {
-                    staticClass: "responsive",
+                    staticClass: "responsive-title",
                     attrs: { src: "/images/cms.svg" }
                   }),
                   _vm._v(" "),
@@ -40111,7 +40159,7 @@ var staticRenderFns = [
                 { staticClass: "mb-3 d-flex justify-content-between" },
                 [
                   _c("img", {
-                    staticClass: "responsive",
+                    staticClass: "responsive-title",
                     attrs: { src: "/images/mobiledev.png" }
                   }),
                   _vm._v(" "),

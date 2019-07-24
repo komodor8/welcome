@@ -10,7 +10,7 @@
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/dev.png" class="responsive">
+                    <img src="/images/dev.png" class="responsive-title">
                     <div><strong>Backend</strong></div>
                     <div></div>
                 </div>
@@ -27,7 +27,7 @@
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/pencil.png" class="responsive">
+                    <img src="/images/pencil.png" class="responsive-title">
                     <div><strong>Frontend</strong></div>
                     <div></div>
                 </div>
@@ -46,7 +46,7 @@
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/cms.svg" class="responsive">
+                    <img src="/images/cms.svg" class="responsive-title">
                     <div><strong>CMS - Content Management System</strong></div>
                     <div></div>
                 </div>
@@ -63,7 +63,7 @@
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-3 d-flex justify-content-between">
-                    <img src="/images/mobiledev.png" class="responsive">
+                    <img src="/images/mobiledev.png" class="responsive-title">
                     <div><strong>Applications mobiles avec React Native</strong></div>
                     <div></div>
                 </div>

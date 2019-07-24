@@ -11,11 +11,8 @@
       <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
-          esse
-          quasi, veritatis totam voluptas nostrum.</p>
+        <h5 class="font-weight-bold text-uppercase mb-4">Farid LKHALDOUNI</h5>
+        <p>Développeur web</p>
 
       </div>
       <!-- Grid column -->
@@ -31,22 +28,12 @@
         <ul class="list-unstyled">
           <li>
             <p>
-              <a href="#!">PROJECTS</a>
+              <a href="#!">Projets</a>
             </p>
           </li>
           <li>
             <p>
-              <a href="#!">ABOUT US</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="#!">BLOG</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="#!">AWARDS</a>
+              <a href="#!">A propos de moi</a>
             </p>
           </li>
         </ul>
@@ -65,19 +52,15 @@
         <ul class="list-unstyled">
           <li>
             <p>
-              <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <i class="fas fa-home mr-3"></i>Dijon, France</p>
           </li>
           <li>
             <p>
-              <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <i class="fas fa-envelope mr-3"></i>farid.lkhaldouni@gmail.com</p>
           </li>
           <li>
             <p>
-              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              <i class="fas fa-phone mr-3"></i> +33 6 16 49 69 45</p>
           </li>
         </ul>
 
