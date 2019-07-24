@@ -2117,14 +2117,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -39790,7 +39782,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "no-gutters bg-danger my-md-5 p-md-5" },
+    { staticClass: "no-gutters bg-danger p-1 my-5 my-md-5 p-md-5" },
     [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Expériences")]),
       _vm._v(" "),
@@ -39836,54 +39828,62 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "no-gutters my-md-5 p-md-5 bg-danger" }, [
-      _c("h1", [_vm._v("Contact me")]),
-      _vm._v(" "),
-      _c("form", { attrs: { method: "POST", action: "/api/send-mail" } }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-            _vm._v("Nom et prénom")
+    return _c(
+      "div",
+      { staticClass: "no-gutters p-1 my-5 my-md-5 p-md-5 bg-danger" },
+      [
+        _c("h1", [_vm._v("Contact me")]),
+        _vm._v(" "),
+        _c("form", { attrs: { method: "POST", action: "/api/send-mail" } }, [
+          _c("div", { staticClass: "form-group" }, [
+            _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+              _vm._v("Nom et prénom")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "form-control",
+              attrs: {
+                type: "text",
+                name: "name",
+                placeholder: "Nom et prénom"
+              }
+            })
           ]),
           _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { type: "text", name: "name", placeholder: "Nom et prénom" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "exampleFormControlInput2" } }, [
-            _vm._v("Email address")
+          _c("div", { staticClass: "form-group" }, [
+            _c("label", { attrs: { for: "exampleFormControlInput2" } }, [
+              _vm._v("Email address")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "form-control",
+              attrs: {
+                type: "email",
+                name: "email",
+                placeholder: "name@example.com"
+              }
+            })
           ]),
           _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: {
-              type: "email",
-              name: "email",
-              placeholder: "name@example.com"
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
-            _vm._v("Example textarea")
+          _c("div", { staticClass: "form-group" }, [
+            _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+              _vm._v("Example textarea")
+            ]),
+            _vm._v(" "),
+            _c("textarea", {
+              staticClass: "form-control",
+              attrs: { name: "description", rows: "3" }
+            })
           ]),
           _vm._v(" "),
-          _c("textarea", {
-            staticClass: "form-control",
-            attrs: { name: "description", rows: "3" }
-          })
-        ]),
-        _vm._v(" "),
-        _c(
-          "button",
-          { staticClass: "btn btn-primary mb-2", attrs: { type: "submit" } },
-          [_vm._v("Envoyer")]
-        )
-      ])
-    ])
+          _c(
+            "button",
+            { staticClass: "btn btn-primary mb-2", attrs: { type: "submit" } },
+            [_vm._v("Envoyer")]
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -39914,7 +39914,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row my-md-5 p-md-5 bg-danger" }, [
+    return _c("div", { staticClass: "row p-1 my-5 my-md-5 p-md-5 bg-danger" }, [
       _c("div", { staticClass: "col-md-6" }, [
         _c("h1", { staticClass: "mb-5" }, [_vm._v("Présentation")]),
         _vm._v(" "),
@@ -39970,13 +39970,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "no-gutters bg-danger my-md-5 p-md-5" }, [
+    return _c("div", { staticClass: "bg-danger p-1 my-5 my-md-5 p-md-5" }, [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Compétences générales")]),
       _vm._v(" "),
       _c("div", { staticClass: "row d-flex justify-content-between" }, [
         _c(
           "div",
-          { staticClass: "col-12 col-md-5 mb-5 rounded border bg-info" },
+          { staticClass: "col-12 col-md-5 mb-5 p-2 rounded border bg-info" },
           [
             _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
               _c("img", {
@@ -40010,7 +40010,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "col-12 col-md-5 mb-5 rounded border bg-info" },
+          { staticClass: "col-12 col-md-5 mb-5 p-2  rounded border bg-info" },
           [
             _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
               _c("img", {
@@ -40050,7 +40050,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "col-12 col-md-5 mb-5 rounded border bg-info" },
+          { staticClass: "col-12 col-md-5 mb-5 p-2 rounded border bg-info" },
           [
             _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
               _c("img", {
@@ -40087,7 +40087,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "col-12 col-md-5 mb-5 rounded border bg-info" },
+          { staticClass: "col-12 col-md-5 mb-5 p-2 rounded border bg-info" },
           [
             _c("div", { staticClass: "mb-3 d-flex justify-content-between" }, [
               _c("img", {
@@ -40143,7 +40143,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "no-gutters bg-danger my-md-5 p-md-5" },
+    { staticClass: "no-gutters bg-danger p-1 my-5 my-md-5 p-md-5" },
     [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Formation")]),
       _vm._v(" "),

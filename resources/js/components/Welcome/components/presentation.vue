@@ -1,5 +1,5 @@
 <template>
-    <div class="row my-md-5 p-md-5 bg-danger">
+    <div class="row p-1 my-5 my-md-5 p-md-5 bg-danger">
         <div class="col-md-6">
             <h1 class="mb-5">Présentation</h1>
             <section class="mb-4">

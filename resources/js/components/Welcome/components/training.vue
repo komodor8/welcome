@@ -1,5 +1,5 @@
 <template>
-    <div class="no-gutters bg-danger my-md-5 p-md-5">
+    <div class="no-gutters bg-danger p-1 my-5 my-md-5 p-md-5">
         <h1 class="mb-5">Formation</h1>
         <Timeline
               :timeline-items="dataTimeline"

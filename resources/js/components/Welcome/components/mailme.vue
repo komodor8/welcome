@@ -1,5 +1,5 @@
 <template>
-    <div class="no-gutters my-md-5 p-md-5 bg-danger">
+    <div class="no-gutters p-1 my-5 my-md-5 p-md-5 bg-danger">
         <h1>Contact me</h1>
 
         <form method="POST" action="/api/send-mail">

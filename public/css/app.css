@@ -10657,6 +10657,11 @@ ul {
   margin-left: -15px;
 }
 
+.gutters {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .responsive {
   width: 100%;
   max-width: 55px;
