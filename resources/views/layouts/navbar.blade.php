@@ -17,22 +17,22 @@
         </ul>
         <ul class="form-inline my-2 my-lg-0">
            <li class="nav-item">
-                <a class="nav-link" href="#">Présentation</a>
+                <a class="nav-link" href="#presentation">Présentation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Compétences</a>
+                <a class="nav-link" href="#skills">Compétences</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Expériences</a>
+                <a class="nav-link" href="#experiences">Expériences</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#training">Formation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CV</a>
+                <a class="nav-link" href="#mailme">CV</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="#mailme">Contacts</a>
             </li>
         </ul>
     </div>

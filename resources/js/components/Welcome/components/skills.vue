@@ -1,10 +1,13 @@
 <template>
-    <div class="bg-danger p-1 my-5 my-md-5 p-md-5">
+    <div
+        class="bg-light p-1 my-5 my-md-5 p-md-5"
+        id="skills"
+    >
         <h1 class="mb-5">Compétences générales</h1>
         <div class="row d-flex justify-content-between">
 
             <div
-                class="col-12 col-md-5 mb-5 p-2 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/dev.png" class="responsive">
@@ -21,7 +24,7 @@
             </div>
 
             <div
-                class="col-12 col-md-5 mb-5 p-2  rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/pencil.png" class="responsive">
@@ -40,7 +43,7 @@
 
 
             <div
-                class="col-12 col-md-5 mb-5 p-2 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/cms.svg" class="responsive">
@@ -57,7 +60,7 @@
             </div>
 
             <div
-                class="col-12 col-md-5 mb-5 p-2 rounded border bg-info"
+                class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-3 d-flex justify-content-between">
                     <img src="/images/mobiledev.png" class="responsive">

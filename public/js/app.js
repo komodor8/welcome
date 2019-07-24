@@ -1927,6 +1927,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1985,6 +1988,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1998,6 +2004,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -2117,6 +2126,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2132,6 +2144,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var timeline_vuejs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! timeline-vuejs */ "./node_modules/timeline-vuejs/dist/timeline-vuejs.common.js");
 /* harmony import */ var timeline_vuejs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(timeline_vuejs__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
 //
 //
 //
@@ -39782,7 +39797,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "no-gutters bg-danger p-1 my-5 my-md-5 p-md-5" },
+    {
+      staticClass: "no-gutters bg-light p-1 my-5 my-md-5 p-md-5",
+      attrs: { id: "experiences" }
+    },
     [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Expériences")]),
       _vm._v(" "),
@@ -39830,7 +39848,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "no-gutters p-1 my-5 my-md-5 p-md-5 bg-danger" },
+      {
+        staticClass: "no-gutters p-1 my-5 my-md-5 p-md-5 bg-light",
+        attrs: { id: "mailme" }
+      },
       [
         _c("h1", [_vm._v("Contact me")]),
         _vm._v(" "),
@@ -39903,46 +39924,8 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row p-1 my-5 my-md-5 p-md-5 bg-danger" }, [
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("h1", { staticClass: "mb-5" }, [_vm._v("Présentation")]),
-        _vm._v(" "),
-        _c("section", { staticClass: "mb-4" }, [
-          _vm._v(
-            "\n            Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les\n            meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et\n            ergonomiques pour s’adapter aux besoins de l’utilisateur.\n            Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("section", [
-          _c("strong", [_vm._v("Méthode Agile")]),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(
-            "\n            Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et\n            anticiper les besoins du client. C’est la méthode agile.\n            Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n            Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client\n            et l’utilisateur final.\n        "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("img", { attrs: { src: "/images/avatar.png", width: "100%" } })
-      ])
-    ])
-  }
-]
-render._withStripped = true
+var render = function () {}
+var staticRenderFns = []
 
 
 
@@ -39970,154 +39953,195 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "bg-danger p-1 my-5 my-md-5 p-md-5" }, [
-      _c("h1", { staticClass: "mb-5" }, [_vm._v("Compétences générales")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row d-flex justify-content-between" }, [
-        _c(
-          "div",
-          { staticClass: "col-12 col-md-5 mb-5 p-2 rounded border bg-info" },
-          [
-            _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/dev.png" }
-              }),
+    return _c(
+      "div",
+      {
+        staticClass: "bg-light p-1 my-5 my-md-5 p-md-5",
+        attrs: { id: "skills" }
+      },
+      [
+        _c("h1", { staticClass: "mb-5" }, [_vm._v("Compétences générales")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row d-flex justify-content-between" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "mb-5 d-flex justify-content-between" },
+                [
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/dev.png" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", [_c("strong", [_vm._v("Backend")])]),
+                  _vm._v(" "),
+                  _c("div")
+                ]
+              ),
               _vm._v(" "),
-              _c("div", [_c("strong", [_vm._v("Backend")])]),
+              _c("div", { staticClass: "mb-5" }, [
+                _c("img", {
+                  staticClass: "responsive",
+                  attrs: { src: "/images/laravel.png" }
+                }),
+                _vm._v(" "),
+                _c("span", { staticClass: "ml-3" }, [
+                  _c("strong", [_vm._v("Framework laravel")])
+                ])
+              ]),
               _vm._v(" "),
-              _c("div")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-5" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/laravel.png" }
-              }),
-              _vm._v(" "),
-              _c("span", { staticClass: "ml-3" }, [
-                _c("strong", [_vm._v("Framework laravel")])
+              _c("section", [
+                _vm._v(
+                  "\n                Les sites sont fait en PHP avec le framework Laravel qui offre un panel de services large et puissant. Ces services permet la gestion des BDD avec le créateur de requêtes SQL et un ORM performants, un constructeur de formulaire très pratique, un système de routage performant, un système d’envoi de mail.\n            "
+                )
               ])
-            ]),
-            _vm._v(" "),
-            _c("section", [
-              _vm._v(
-                "\n                Les sites sont fait en PHP avec le framework Laravel qui offre un panel de services large et puissant. Ces services permet la gestion des BDD avec le créateur de requêtes SQL et un ORM performants, un constructeur de formulaire très pratique, un système de routage performant, un système d’envoi de mail.\n            "
-              )
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-12 col-md-5 mb-5 p-2  rounded border bg-info" },
-          [
-            _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/pencil.png" }
-              }),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "mb-5 d-flex justify-content-between" },
+                [
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/pencil.png" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", [_c("strong", [_vm._v("Frontend")])]),
+                  _vm._v(" "),
+                  _c("div")
+                ]
+              ),
               _vm._v(" "),
-              _c("div", [_c("strong", [_vm._v("Frontend")])]),
+              _c(
+                "div",
+                { staticClass: "d-flex justify-content-between mb-5" },
+                [
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/vue.png" }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/js.png" }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/htmlcss.png" }
+                  })
+                ]
+              ),
               _vm._v(" "),
-              _c("div")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "d-flex justify-content-between mb-5" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/vue.png" }
-              }),
+              _c("section", [
+                _vm._v(
+                  "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "mb-5 d-flex justify-content-between" },
+                [
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/cms.svg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("strong", [_vm._v("CMS - Content Management System")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div")
+                ]
+              ),
               _vm._v(" "),
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/js.png" }
-              }),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/htmlcss.png" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("section", [
-              _vm._v(
-                "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
-              )
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-12 col-md-5 mb-5 p-2 rounded border bg-info" },
-          [
-            _c("div", { staticClass: "mb-5 d-flex justify-content-between" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/cms.svg" }
-              }),
-              _vm._v(" "),
-              _c("div", [
-                _c("strong", [_vm._v("CMS - Content Management System")])
+              _c("div", { staticClass: "d-flex justify-content-around mb-5" }, [
+                _c("img", {
+                  staticClass: "responsive",
+                  attrs: { src: "/images/wordpress.png" }
+                }),
+                _vm._v(" "),
+                _c("img", {
+                  staticClass: "responsive",
+                  attrs: { src: "/images/processwire.png" }
+                })
               ]),
               _vm._v(" "),
-              _c("div")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "d-flex justify-content-around mb-5" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/wordpress.png" }
-              }),
+              _c("section", [
+                _vm._v(
+                  "\n                Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.\n            "
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "mb-3 d-flex justify-content-between" },
+                [
+                  _c("img", {
+                    staticClass: "responsive",
+                    attrs: { src: "/images/mobiledev.png" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("strong", [
+                      _vm._v("Applications mobiles avec React Native")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div")
+                ]
+              ),
               _vm._v(" "),
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/processwire.png" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("section", [
-              _vm._v(
-                "\n                Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.\n            "
-              )
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-12 col-md-5 mb-5 p-2 rounded border bg-info" },
-          [
-            _c("div", { staticClass: "mb-3 d-flex justify-content-between" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/mobiledev.png" }
-              }),
-              _vm._v(" "),
-              _c("div", [
-                _c("strong", [_vm._v("Applications mobiles avec React Native")])
+              _c("div", { staticClass: "d-flex justify-content-center mb-5" }, [
+                _c("img", {
+                  staticClass: "responsive",
+                  attrs: { src: "/images/rn.png" }
+                })
               ]),
               _vm._v(" "),
-              _c("div")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "d-flex justify-content-center mb-5" }, [
-              _c("img", {
-                staticClass: "responsive",
-                attrs: { src: "/images/rn.png" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("section", [
-              _vm._v(
-                "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
-              )
-            ])
-          ]
-        )
-      ])
-    ])
+              _c("section", [
+                _vm._v(
+                  "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
+                )
+              ])
+            ]
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -40143,7 +40167,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "no-gutters bg-danger p-1 my-5 my-md-5 p-md-5" },
+    {
+      staticClass: "no-gutters bg-light p-1 my-5 my-md-5 p-md-5",
+      attrs: { id: "training" }
+    },
     [
       _c("h1", { staticClass: "mb-5" }, [_vm._v("Formation")]),
       _vm._v(" "),
