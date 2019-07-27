@@ -8,6 +8,8 @@
 
             <div
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                data-aos="fade-right"
+                data-aos-duration="500"
             >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/dev.png" class="responsive-title-dev">
@@ -19,12 +21,14 @@
                     <span class="ml-3"><strong>Framework laravel</strong></span>
                 </div>
                 <section>
-                    Les sites sont fait en PHP avec le framework Laravel qui offre un panel de services large et puissant. Ces services permet la gestion des BDD avec le créateur de requêtes SQL et un ORM performants, un constructeur de formulaire très pratique, un système de routage performant, un système d’envoi de mail.
+                    Les sites sont créés avec le framework Laravel en PHP qui offre un panel de services large et puissant. les bases de données sont gérées avec Eloquent ORM, chaque requête est gérée de façon simple, efficace et sécurisé. Il propose un constructeur de formulaire rapide, un système d’envoi de mail et entre autre un système de routage performant. Ce Framework est de plus en plus utilisé par les développeurs à travers le monde.
                 </section>
             </div>
 
             <div
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="500"
             >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/pencil.png" class="responsive-title">
@@ -37,13 +41,15 @@
                     <img src="/images/htmlcss.png" class="responsive">
                 </div>
                 <section>
-                    Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.
+                    Le frontend permet la création de l'image de marque et de l'univers que vous voulez créer. J'utilise ces outils pour rendre l'expérience utilisateur unique. Parmi ces outils, on trouve le framework VueJS et la librairie jQuery pour animer vos sites. Les sites sont responsive sur tous les formats (smartphones, tablettes et PC)
                 </section>
             </div>
 
 
             <div
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                data-aos="fade-right"
+                data-aos-duration="500"
             >
                 <div class="mb-5 d-flex justify-content-between">
                     <img src="/images/cms.svg" class="responsive-title">
@@ -55,12 +61,14 @@
                     <img src="/images/processwire.png" class="responsive">
                 </div>
                 <section>
-                    Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.
+                    l'utilisation de CMS, système de gestion de contenu en français, permet d'être utilisés simultanément par plusieurs individus, de proposer une chaîne de publication de contenu et de gérer séparément la forme et le contenu
                 </section>
             </div>
 
             <div
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="500"
             >
                 <div class="mb-3 d-flex justify-content-between">
                     <img src="/images/mobiledev.png" class="responsive-title">
@@ -71,7 +79,7 @@
                     <img src="/images/rn.png" class="responsive">
                 </div>
                 <section>
-                    Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.
+                    React native permet de créer des applications mobiles natives en utilisant Javascript et React.
                 </section>
             </div>
         </div>

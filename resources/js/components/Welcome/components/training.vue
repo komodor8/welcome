@@ -6,7 +6,10 @@
         <h1 class="mb-5">Formation</h1>
         <div class="timeline">
             <ul>
-                <li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-duration="500"
+                >
                     <div class="time">
                         <h4>Mai 2017</h4>
                     </div>
@@ -20,7 +23,10 @@
                     </div>
 
                 </li>
-                <li>
+                <li
+                    data-aos="fade-right"
+                    data-aos-duration="500"
+                >
                     <div class="time">
                         <h4>Août 2014</h4>
                     </div>
@@ -32,7 +38,10 @@
                     </div>
 
                 </li>
-                <li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-duration="500"
+                >
                     <div class="time">
                         <h4>Novembre 2012</h4>
                     </div>
@@ -41,11 +50,14 @@
                             Master 1 Marketing, mention assez bien - IAE Dijon
                         </h3>
                         <p>
-                            Semestre en Norvège à l\’université Hedmark University College à Rena, mention bien, contenu des enseignements : marketing, du management et du commerce à l’international.
+                            Semestre en Norvège à l’université Hedmark University College à Rena, mention bien, contenu des enseignements : marketing, du management et du commerce à l’international.
                         </p>
                     </div>
                 </li>
-                <li>
+                <li
+                    data-aos="fade-right"
+                    data-aos-duration="500"
+                >
                     <div class="time">
                         <h4>Juin 2011</h4>
                     </div>
@@ -58,7 +70,10 @@
                         </p>
                     </div>
                 </li>
-                <li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-duration="500"
+                >
                     <div class="time">
                         <h4>Juin 2010</h4>
                     </div>
@@ -71,7 +86,10 @@
                         </p>
                     </div>
                 </li>
-                <li>
+                <li
+                    data-aos="fade-right"
+                    data-aos-duration="500"
+                >
                     <div class="time">
                         <h4>Juin 2008</h4>
                     </div>

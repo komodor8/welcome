@@ -3,7 +3,7 @@
 @section('content')
     <div>
         <div style="height: 100px;"></div>
-        <div class="splash-title">DEVELOPPEUR WEB FULLSTACK</div>
+        <div class="splash-title">DÉVELOPPEUR WEB FULLSTACK</div>
 
         <div style="height: 50px;"></div>
 
@@ -13,5 +13,3 @@
         <welcome-component></welcome-component>
     </div>
 @endsection
-
-

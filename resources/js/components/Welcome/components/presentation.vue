@@ -6,20 +6,27 @@
         <div class="col-md-8">
             <h1 class="mb-5">Présentation</h1>
             <section class="mb-4">
-                Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les
-                meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et
-                ergonomiques pour s’adapter aux besoins de l’utilisateur.
-                Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.
+                Je me définis comme un développeur web passionné, curieux des nouvelles technologies, soucieux d’utiliser les
+                meilleurs outils qui me permettent de construire des sites web sécurisés, respectueux des normes et
+                fonctionnel pour l’utilisateur.
             </section>
+
             <br />
-            <section>
+            <section class="mb-4">
                 <strong>Méthode Agile</strong>
                 <br />
-                Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et
-                anticiper les besoins du client. C’est la méthode agile.
+                Dans tous les différents projets sur lesquels j'ai travaillé, j’inclus autant que possible le client dans le processus de création dans le but de satisfaire et anticiper les besoins du client.
                 Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.
                 Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client
                 et l’utilisateur final.
+            </section>
+
+            <section>
+                <strong>Mes domaines de compétences</strong>
+                </br>
+                Le processus de création de sites web a plusieurs étapes dans lesquelles je peux intervenir. Je suis spécialisé dans les fonctionnalités techniques qu'un site peut avoir et la gestion des bases de données.
+                </br>
+                Je peux également intervenir dans le choix du nom de domaine et de l'hébergement, la stratégie de référencement, la conception graphique et l'expérience utilisateur.
             </section>
         </div>
 

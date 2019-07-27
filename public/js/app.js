@@ -1965,6 +1965,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2016,6 +2047,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2141,6 +2179,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2154,6 +2200,24 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -38269,65 +38333,128 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "timeline" }, [
           _c("ul", [
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Juin 2019 (2 ans)")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        Développeur web fullstack – Belvédère communication, Montréal\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Juin 2019 (2 ans)")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                        Projet 1: Méthode Agile dans le développement d'un projet d'une multinationale. Développement d'un outil interne qui permet de gérer les réclamations numériquement entre entrepôts et concessionnaires. Technologies utilisées : Laravel, VueJS, ORM Eloquent, testing, Gestion de base de données, cronjob.  Projet 2: Développment d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs. Technologies utilisées :  ReactNative et meteor\n                    "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Développeur web fullstack – Belvédère communication, Montréal\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("section", { staticClass: "mb-3" }, [
+                      _c("strong", [_vm._v("Projet 1: ")]),
+                      _vm._v(
+                        "Méthode Agile dans le développement d'un projet d'une multinationale. Développement d'un outil interne qui permet de gérer les réclamations numériquement entre entrepôts et concessionnaires."
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("strong", [_vm._v("Technologies utilisées : ")]),
+                      _vm._v(
+                        "Laravel, VueJS, ORM Eloquent, testing, Gestion de base de données, cronjob.\n                        "
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("section", [
+                      _c("strong", [_vm._v("Projet 2: ")]),
+                      _vm._v(
+                        "Développment d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs.\n                            "
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("strong", [_vm._v("Technologies utilisées : ")]),
+                      _vm._v("React Native et meteor\n                        ")
+                    ])
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Juillet 2017 (3 mois)")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        Développeur web – JPM & Associés, Dijon(21)\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-right", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Juillet 2017 (3 mois)")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "  Projet : Développement d’une application web pour les entreprises qui souhaitent créer une campagne de communication originale par email à leurs clients ou collaborateurs.Technologies utilisées : NodeJS, Framework Express, ReactJS, GitLab, JWT, Authentification avec Passport, ORM Sequelize, PostgreSQL. "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Développeur web – JPM & Associés, Dijon(21)\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("strong", [_vm._v("Projet : ")]),
+                    _vm._v(
+                      "Développement d’une application web pour les entreprises qui souhaitent créer une campagne de communication originale par email à leurs clients ou collaborateurs."
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [_vm._v("Technologies utilisées : ")]),
+                    _vm._v(
+                      "NodeJS, Framework Express, ReactJS, GitLab, JWT, Authentification avec Passport, ORM Sequelize, PostgreSQL.\n                    "
+                    )
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Octobre 2014 (6 mois)")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        Stage assistant ingénieur d’affaires – vNext pure player Microsoft, Paris (75)\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Octobre 2014 (6 mois)")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                        Connaissance des systèmes d’information en entreprise Ouverture de nouveaux comptes - gestion des relations clients Proposition de nouveaux services Microsoft Négociation prix / service / date et délai de réalisation de l’implémentation des services MicrosoftRéalisation de devis, propositions commerciales, avant-ventes et PoC (Proof of Concepts) Mailing de nos nouveaux produits à nos clients, organisation du stand pour les salons IT\n                    "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Stage assistant ingénieur d’affaires – vNext pure player Microsoft, Paris (75)\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v(
+                      "\n                        Connaissance des systèmes d’information en entreprise:\n                        "
+                    ),
+                    _c("div", { staticClass: "ml-2" }, [
+                      _c("br"),
+                      _vm._v(
+                        "\n                            - Ouverture de nouveaux comptes - gestion des relations clients\n                            "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                            - Proposition de nouveaux services Microsoft Négociation prix / service / date et délai de réalisation de l’implémentation des services Microsoft\n                            "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                            - Réalisation de devis, propositions commerciales, avant-ventes et PoC (Proof of Concepts)\n                            "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                             - Mailing de nos nouveaux produits à nos clients, organisation du stand pour les salons IT\n                        "
+                      )
+                    ])
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
             _c("div", { staticStyle: { clear: "both" } })
           ])
@@ -38468,18 +38595,31 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("section", { staticClass: "mb-4" }, [
             _vm._v(
-              "\n            Je me définis comme un développeur web passionné, curieux des nouvelles technologies,  soucieux d’utiliser les\n            meilleurs outils qui me permettent de construire des sites webs plus sécurisés, respectueux des normes du web et\n            ergonomiques pour s’adapter aux besoins de l’utilisateur.\n            Je prône des sites simples d’accès et facile à utiliser avec un design graphique agréable, simple et épuré.\n        "
+              "\n            Je me définis comme un développeur web passionné, curieux des nouvelles technologies, soucieux d’utiliser les\n            meilleurs outils qui me permettent de construire des sites web sécurisés, respectueux des normes et\n            fonctionnel pour l’utilisateur.\n        "
             )
           ]),
           _vm._v(" "),
           _c("br"),
           _vm._v(" "),
-          _c("section", [
+          _c("section", { staticClass: "mb-4" }, [
             _c("strong", [_vm._v("Méthode Agile")]),
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\n            Pour vos projets web, j’inclue autant que possible le client dans le processus de création dans le but de satisfaire et\n            anticiper les besoins du client. C’est la méthode agile.\n            Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n            Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client\n            et l’utilisateur final.\n        "
+              "\n            Dans tous les différents projets sur lesquels j'ai travaillé, j’inclus autant que possible le client dans le processus de création dans le but de satisfaire et anticiper les besoins du client.\n            Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n            Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client\n            et l’utilisateur final.\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("section", [
+            _c("strong", [_vm._v("Mes domaines de compétences")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n            Le processus de création de sites web a plusieurs étapes dans lesquelles je peux intervenir. Je suis spécialisé dans les fonctionnalités techniques qu'un site peut avoir et la gestion des bases de données.\n            "
+            ),
+            _c("br"),
+            _vm._v(
+              "\n            Je peux également intervenir dans le choix du nom de domaine et de l'hébergement, la stratégie de référencement, la conception graphique et l'expérience utilisateur.\n        "
             )
           ])
         ]),
@@ -38533,7 +38673,8 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white",
+              attrs: { "data-aos": "fade-right", "data-aos-duration": "500" }
             },
             [
               _c(
@@ -38564,7 +38705,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                Les sites sont fait en PHP avec le framework Laravel qui offre un panel de services large et puissant. Ces services permet la gestion des BDD avec le créateur de requêtes SQL et un ORM performants, un constructeur de formulaire très pratique, un système de routage performant, un système d’envoi de mail.\n            "
+                  "\n                Les sites sont créés avec le framework Laravel en PHP qui offre un panel de services large et puissant. les bases de données sont gérées avec Eloquent ORM, chaque requête est gérée de façon simple, efficace et sécurisé. Il propose un constructeur de formulaire rapide, un système d’envoi de mail et entre autre un système de routage performant. Ce Framework est de plus en plus utilisé par les développeurs à travers le monde.\n            "
                 )
               ])
             ]
@@ -38574,7 +38715,8 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white",
+              attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
             },
             [
               _c(
@@ -38615,7 +38757,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
+                  "\n                Le frontend permet la création de l'image de marque et de l'univers que vous voulez créer. J'utilise ces outils pour rendre l'expérience utilisateur unique. Parmi ces outils, on trouve le framework VueJS et la librairie jQuery pour animer vos sites. Les sites sont responsive sur tous les formats (smartphones, tablettes et PC)\n            "
                 )
               ])
             ]
@@ -38625,7 +38767,8 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white",
+              attrs: { "data-aos": "fade-right", "data-aos-duration": "500" }
             },
             [
               _c(
@@ -38659,7 +38802,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                Utilisation de CMS comme wordpress pour des sites dont le contenu peut être géré par le client.\n            "
+                  "\n                l'utilisation de CMS, système de gestion de contenu en français, permet d'être utilisés simultanément par plusieurs individus, de proposer une chaîne de publication de contenu et de gérer séparément la forme et le contenu\n            "
                 )
               ])
             ]
@@ -38669,7 +38812,8 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
+                "col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white",
+              attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
             },
             [
               _c(
@@ -38700,7 +38844,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                Les sites du HTML, du CSS, du Responsive Design et du Javascript pour faire de jolis effets et animations. J’utilise la librairie jQuery ou en cas de besoin le framework vueJS pour mes sites.\n            "
+                  "\n                React native permet de créer des applications mobiles natives en utilisant Javascript et React.\n            "
                 )
               ])
             ]
@@ -38749,117 +38893,153 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "timeline" }, [
           _c("ul", [
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Mai 2017")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                         Diplôme développeur logiciels - Développement web fullstack\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Mai 2017")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                        Acquisition de compétences dans différents langages serveurs, langage SQL et langages client. Utilsation des API dans mes différents projets.\n                    "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                         Diplôme développeur logiciels - Développement web fullstack\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                        Acquisition de compétences dans différents langages serveurs, langage SQL et langages client. Utilsation des API dans mes différents projets.\n                    "
+                    )
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Août 2014")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        Master 2 marketing et vente en B to B – IAE Lyon\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-right", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Août 2014")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    " Contenu des enseignements : Vente et négociation de solutions d’affaires en IT – plan d’actions commerciales et gestion de portefeuilles clients – prévision et budgétisation des ventes – analyse de l’environnement marché et veille concurrentielle – conception et lancement d’offres B to B. "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Master 2 marketing et vente en B to B – IAE Lyon\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      " Contenu des enseignements : Vente et négociation de solutions d’affaires en IT – plan d’actions commerciales et gestion de portefeuilles clients – prévision et budgétisation des ventes – analyse de l’environnement marché et veille concurrentielle – conception et lancement d’offres B to B. "
+                    )
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Novembre 2012")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        Master 1 Marketing, mention assez bien - IAE Dijon\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Novembre 2012")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                        Semestre en Norvège à l\\’université Hedmark University College à Rena, mention bien, contenu des enseignements : marketing, du management et du commerce à l’international.\n                    "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Master 1 Marketing, mention assez bien - IAE Dijon\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                        Semestre en Norvège à l’université Hedmark University College à Rena, mention bien, contenu des enseignements : marketing, du management et du commerce à l’international.\n                    "
+                    )
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Juin 2011")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        Licence 3 Sciences de gestion - l’IAE de Dijon\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-right", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Juin 2011")])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                        spécialité marketing.\n                    "
-                  )
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Licence 3 Sciences de gestion - l’IAE de Dijon\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                        spécialité marketing.\n                    "
+                    )
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Juin 2010")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                        DUT Gestion des Entreprises et des administrations.\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Juin 2010")])
                 ]),
                 _vm._v(" "),
-                _c("p")
-              ])
-            ]),
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        DUT Gestion des Entreprises et des administrations.\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p")
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("li", [
-              _c("div", { staticClass: "time" }, [
-                _c("h4", [_vm._v("Juin 2008")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "content" }, [
-                _c("h3", [
-                  _vm._v(
-                    "\n                       Baccalauréat Scientifique à Dijon.\n                    "
-                  )
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-right", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Juin 2008")])
                 ]),
                 _vm._v(" "),
-                _c("p")
-              ])
-            ]),
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                       Baccalauréat Scientifique à Dijon.\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p")
+                ])
+              ]
+            ),
             _vm._v(" "),
             _c("div", { staticStyle: { clear: "both" } })
           ])
