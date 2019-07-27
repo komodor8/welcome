@@ -10,7 +10,7 @@
                 class="col-12 col-md-5 mb-5 p-2 p-md-4 rounded border bg-white"
             >
                 <div class="mb-5 d-flex justify-content-between">
-                    <img src="/images/dev.png" class="responsive-title">
+                    <img src="/images/dev.png" class="responsive-title-dev">
                     <div><strong>Backend</strong></div>
                     <div></div>
                 </div>

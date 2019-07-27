@@ -4,46 +4,54 @@
         id="experiences"
     >
         <h1 class="mb-5">Expériences</h1>
-        <Timeline
-            :timeline-items="dataTimeline"
-            :message-when-no-items="messageWhenNoItems"
-            :unique-year="true"
-            order="desc"
-            colorDots="#FF00EB"
-        />
+        <div class="timeline">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h4>Juin 2019 (2 ans)</h4>
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Développeur web fullstack – Belvédère communication, Montréal
+                        </h3>
+                        <p>
+                            Projet 1: Méthode Agile dans le développement d'un projet d'une multinationale. Développement d'un outil interne qui permet de gérer les réclamations numériquement entre entrepôts et concessionnaires. Technologies utilisées : Laravel, VueJS, ORM Eloquent, testing, Gestion de base de données, cronjob.  Projet 2: Développment d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs. Technologies utilisées :  ReactNative et meteor
+                        </p>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="time">
+                        <h4>Juillet 2017 (3 mois)</h4>
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Développeur web – JPM & Associés, Dijon(21)
+                        </h3>
+                        <p>  Projet : Développement d’une application web pour les entreprises qui souhaitent créer une campagne de communication originale par email à leurs clients ou collaborateurs.Technologies utilisées : NodeJS, Framework Express, ReactJS, GitLab, JWT, Authentification avec Passport, ORM Sequelize, PostgreSQL. </p>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="time">
+                        <h4>Octobre 2014 (6 mois)</h4>
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Stage assistant ingénieur d’affaires – vNext pure player Microsoft, Paris (75)
+                        </h3>
+                        <p>
+                            Connaissance des systèmes d’information en entreprise Ouverture de nouveaux comptes - gestion des relations clients Proposition de nouveaux services Microsoft Négociation prix / service / date et délai de réalisation de l’implémentation des services MicrosoftRéalisation de devis, propositions commerciales, avant-ventes et PoC (Proof of Concepts) Mailing de nos nouveaux produits à nos clients, organisation du stand pour les salons IT
+                        </p>
+                    </div>
+                </li>
+                <div style="clear: both;"></div>
+            </ul>
+        </div>
     </div>
 </template>
 
 <script>
-    import Timeline from 'timeline-vuejs'
-
     export default {
-        components: {
-            Timeline
-        },
-
-        data: () => ({
-        messageWhenNoItems: "There arent items",
-        dataTimeline: [
-            {
-                from: new Date(2019, 5),
-                title: "Développeur web fullstack – Belvédère communication, Montréal – 2 ans",
-                description:
-                  "<strong>Projet 1: </strong>Méthode Agile dans le développement d'un projet d'une multinationale. Développement d'un outil interne qui permet de gérer les réclamations numériquement entre entrepôts et concessionnaires. </br><strong>Technologies utilisées :</strong> Laravel, VueJS, ORM Eloquent, testing, Gestion de base de données, cronjob. </br></br> <strong>Projet 2: </strong>Développment d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs.  </br><strong>Technologies utilisées : </strong> ReactNative et meteor"
-            },
-            {
-                from: new Date(2017, 5),
-                title: "Développeur web – JPM & Associés, Dijon(21) – 3 mois",
-                description:
-                  "<strong>Projet :</strong> Développement d’une application web pour les entreprises qui souhaitent créer une campagne de communication originale par email à leurs clients ou collaborateurs.</br><strong>Technologies utilisées :</strong> NodeJS, Framework Express, ReactJS, GitLab, JWT, Authentification avec Passport, ORM Sequelize, PostgreSQL."
-                },
-            {
-                from: new Date(2014, 8),
-                title: " Stage assistant ingénieur d’affaires – vNext pure player Microsoft, Paris (75) – 6 mois",
-                description:
-                  "Connaissance des systèmes d’information en entreprise <ul class='show-list-circle'><li>Ouverture de nouveaux comptes - gestion des relations clients</li><li>Proposition de nouveaux services Microsoft</li><li>Négociation prix / service / date et délai de réalisation de l’implémentation des services Microsoft</li><li>Réalisation de devis, propositions commerciales, avant-ventes et PoC (Proof of Concepts)</li><li>Mailing de nos nouveaux produits à nos clients, organisation du stand pour les salons IT</li></ul>"
-            },
-        ]
-      })
     }
 </script>

@@ -1,7 +1,108 @@
-.timeline-item .title-item {
-    font-weight: bold !important;
+.timeline {
+    position: relative;
+    margin: 50px 10px;
+    padding: 40px 0;
 }
 
-// .timeline-item .item {
-    // border-left: 5px solid #949494 !important;
-// }
+.timeline:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+.timeline ul li {
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+// Desktops
+@media screen and (min-width: 764px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline ul li:nth-child(odd):before {
+        content: '';
+        position: absolute;
+        top: 24px;
+        right: 14px;
+        width: 10px;
+        height: 10px;
+        background: #1AA1BE;
+        border-radius: 50%;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        text-align: left;
+        clear: both;
+    }
+
+    .timeline ul li:nth-child(even) {
+        float: right;
+        text-align: left;
+        clear: both;
+    }
+
+    .timeline ul li:nth-child(even):before {
+        content: '';
+        position: absolute;
+        top: 24px;
+        left: -23px;
+        width: 10px;
+        height: 10px;
+        background: #1AA1BE;
+        border-radius: 50%;
+    }
+}
+
+// Phones
+@media screen and (max-width: 764px) {
+    .timeline:before {
+        left: 0%;
+    }
+
+    .timeline ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .timeline ul li {
+        width: 100%;
+        float: left;
+        text-align: left;
+        clear: both;
+    }
+
+    .timeline ul li:before {
+        content: '';
+        position: absolute;
+        top: 24px;
+        left: -4px;
+        width: 10px;
+        height: 10px;
+        background: #1AA1BE;
+        border-radius: 50%;
+    }
+}
+
+.timeline ul li h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeline ul li h4 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.timeline ul li p {
+   font-size: 14px;
+    font-weight: 500;
+}
+
