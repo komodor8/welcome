@@ -8,23 +8,23 @@
             <section class="mb-4">
                 Je me définis comme un développeur web passionné, curieux des nouvelles technologies, soucieux d’utiliser les
                 meilleurs outils qui me permettent de construire des sites web sécurisés, respectueux des normes et
-                fonctionnel pour l’utilisateur.
+                fonctionnels pour l’utilisateur.
             </section>
 
             <br />
             <section class="mb-4">
                 <strong>Méthode Agile</strong>
                 <br />
-                Dans tous les différents projets sur lesquels j'ai travaillé, j’inclus autant que possible le client dans le processus de création dans le but de satisfaire et anticiper les besoins du client.
+                Dans tous les différents projets sur lesquels j'ai travaillés, j’inclus autant que possible le client dans le processus de création afin de satisfaire et anticiper ses besoins.
                 Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.
-                Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client
+                Ainsi, j’adapte le design et les fonctionnalités du projet en fonction de son évolution dans le but de satisfaire le client
                 et l’utilisateur final.
             </section>
 
             <section>
                 <strong>Mes domaines de compétences</strong>
                 </br>
-                Le processus de création de sites web a plusieurs étapes dans lesquelles je peux intervenir. Je suis spécialisé dans les fonctionnalités techniques qu'un site peut avoir et la gestion des bases de données.
+                Le processus de création de sites web a plusieurs étapes dans lesquelles je peux intervenir. Je suis spécialisé dans les fonctionnalités techniques et la gestion des bases de données.
                 </br>
                 Je peux également intervenir dans le choix du nom de domaine et de l'hébergement, la stratégie de référencement, la conception graphique et l'expérience utilisateur.
             </section>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
     <a class="navbar-brand" href="#">Farid LKHALDOUNI</a>
     <button
         class="navbar-toggler"

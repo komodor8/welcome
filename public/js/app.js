@@ -1996,6 +1996,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -38329,7 +38348,7 @@ var staticRenderFns = [
         attrs: { id: "experiences" }
       },
       [
-        _c("h1", { staticClass: "mb-5" }, [_vm._v("Expériences")]),
+        _c("h1", { staticClass: "mb-5" }, [_vm._v("Expérience")]),
         _vm._v(" "),
         _c("div", { staticClass: "timeline" }, [
           _c("ul", [
@@ -38367,7 +38386,7 @@ var staticRenderFns = [
                     _c("section", [
                       _c("strong", [_vm._v("Projet 2: ")]),
                       _vm._v(
-                        "Développment d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs.\n                            "
+                        "Développement d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs.\n                            "
                       ),
                       _c("br"),
                       _vm._v(" "),
@@ -38419,6 +38438,34 @@ var staticRenderFns = [
               },
               [
                 _c("div", { staticClass: "time" }, [
+                  _c("h4", [_vm._v("Janvier 2015 (1 an)")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "content" }, [
+                  _c("h3", [
+                    _vm._v(
+                      "\n                        Expérience international en Australie et apprentissage de l'anglais.\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("section", { staticClass: "mb-3" }, [
+                      _vm._v(
+                        "\n                            PVT en australie pendant 1 an et plusieurs voyages en Asie du sud-est.\n                        "
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: { "data-aos": "fade-left", "data-aos-duration": "500" }
+              },
+              [
+                _c("div", { staticClass: "time" }, [
                   _c("h4", [_vm._v("Octobre 2014 (6 mois)")])
                 ]),
                 _vm._v(" "),
@@ -38431,7 +38478,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("div", [
                     _vm._v(
-                      "\n                        Connaissance des systèmes d’information en entreprise:\n                        "
+                      "\n                        Connaissance des systèmes d’information en entreprise :\n                        "
                     ),
                     _c("div", { staticClass: "ml-2" }, [
                       _c("br"),
@@ -38595,7 +38642,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("section", { staticClass: "mb-4" }, [
             _vm._v(
-              "\n            Je me définis comme un développeur web passionné, curieux des nouvelles technologies, soucieux d’utiliser les\n            meilleurs outils qui me permettent de construire des sites web sécurisés, respectueux des normes et\n            fonctionnel pour l’utilisateur.\n        "
+              "\n            Je me définis comme un développeur web passionné, curieux des nouvelles technologies, soucieux d’utiliser les\n            meilleurs outils qui me permettent de construire des sites web sécurisés, respectueux des normes et\n            fonctionnels pour l’utilisateur.\n        "
             )
           ]),
           _vm._v(" "),
@@ -38606,7 +38653,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\n            Dans tous les différents projets sur lesquels j'ai travaillé, j’inclus autant que possible le client dans le processus de création dans le but de satisfaire et anticiper les besoins du client.\n            Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n            Ainsi j’adapte le design et les fonctionnalistes du projet en fonction de son évolution dans le but de satisfaire le client\n            et l’utilisateur final.\n        "
+              "\n            Dans tous les différents projets sur lesquels j'ai travaillés, j’inclus autant que possible le client dans le processus de création afin de satisfaire et anticiper ses besoins.\n            Cette méthode a fait ses preuves par ses multiples avantages et est utilisée par les plus grandes entreprises.\n            Ainsi, j’adapte le design et les fonctionnalités du projet en fonction de son évolution dans le but de satisfaire le client\n            et l’utilisateur final.\n        "
             )
           ]),
           _vm._v(" "),
@@ -38615,7 +38662,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\n            Le processus de création de sites web a plusieurs étapes dans lesquelles je peux intervenir. Je suis spécialisé dans les fonctionnalités techniques qu'un site peut avoir et la gestion des bases de données.\n            "
+              "\n            Le processus de création de sites web a plusieurs étapes dans lesquelles je peux intervenir. Je suis spécialisé dans les fonctionnalités techniques et la gestion des bases de données.\n            "
             ),
             _c("br"),
             _vm._v(
@@ -38705,7 +38752,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                Les sites sont créés avec le framework Laravel en PHP qui offre un panel de services large et puissant. les bases de données sont gérées avec Eloquent ORM, chaque requête est gérée de façon simple, efficace et sécurisé. Il propose un constructeur de formulaire rapide, un système d’envoi de mail et entre autre un système de routage performant. Ce Framework est de plus en plus utilisé par les développeurs à travers le monde.\n            "
+                  "\n                Les sites sont créés avec le framework Laravel en PHP qui offre un panel de services large et puissant. Les bases de données sont gérées avec Eloquent ORM, chaque requête est gérée de façon simple, efficace et sécurisé. Il propose un constructeur de formulaire rapide, un système d’envoi de mail et entre autre un système de routage performant. Ce Framework est de plus en plus utilisé par les développeurs à travers le monde.\n            "
                 )
               ])
             ]
@@ -38757,7 +38804,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                Le frontend permet la création de l'image de marque et de l'univers que vous voulez créer. J'utilise ces outils pour rendre l'expérience utilisateur unique. Parmi ces outils, on trouve le framework VueJS et la librairie jQuery pour animer vos sites. Les sites sont responsive sur tous les formats (smartphones, tablettes et PC)\n            "
+                  "\n                Le frontend permet la création de l'image de marque et de l'univers que vous voulez créer. J'utilise ces outils pour rendre l'expérience utilisateur unique. Parmi ces outils, on trouve le framework VueJS et la librairie jQuery pour animer vos sites. Les sites sont responsives sur tous les formats (smartphones, tablettes et PC).\n            "
                 )
               ])
             ]
@@ -38802,7 +38849,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("section", [
                 _vm._v(
-                  "\n                l'utilisation de CMS, système de gestion de contenu en français, permet d'être utilisés simultanément par plusieurs individus, de proposer une chaîne de publication de contenu et de gérer séparément la forme et le contenu\n            "
+                  "\n                L'utilisation de CMS, système de gestion de contenu en français, permet d'être utilisé simultanément par plusieurs individus, de proposer une chaîne de publication de contenu et de gérer séparément la forme et le contenu.\n            "
                 )
               ])
             ]

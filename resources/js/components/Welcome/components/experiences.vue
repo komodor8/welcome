@@ -3,7 +3,7 @@
         class="no-gutters bg-light p-1 my-5 my-md-5 p-md-5"
         id="experiences"
     >
-        <h1 class="mb-5">Expériences</h1>
+        <h1 class="mb-5">Expérience</h1>
         <div class="timeline">
             <ul>
                 <li
@@ -23,7 +23,7 @@
                                 <strong>Technologies utilisées : </strong>Laravel, VueJS, ORM Eloquent, testing, Gestion de base de données, cronjob.
                             </section>
                             <section>
-                                <strong>Projet 2: </strong>Développment d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs.
+                                <strong>Projet 2: </strong>Développement d'une application mobile qui permet de communiquer des informations à des syndicats, de tracer les heures supplémentaires, frais des utilisateurs.
                                 <br>
                                 <strong>Technologies utilisées : </strong>React Native et meteor
                             </section>
@@ -54,6 +54,25 @@
                     data-aos-duration="500"
                 >
                     <div class="time">
+                        <h4>Janvier 2015 (1 an)</h4>
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Expérience international en Australie et apprentissage de l'anglais.
+                        </h3>
+                        <div>
+                            <section class="mb-3">
+                                PVT en australie pendant 1 an et plusieurs voyages en Asie du sud-est.
+                            </section>
+                        </div>
+                    </div>
+
+                </li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-duration="500"
+                >
+                    <div class="time">
                         <h4>Octobre 2014 (6 mois)</h4>
                     </div>
                     <div class="content">
@@ -61,7 +80,7 @@
                             Stage assistant ingénieur d’affaires – vNext pure player Microsoft, Paris (75)
                         </h3>
                         <div>
-                            Connaissance des systèmes d’information en entreprise:
+                            Connaissance des systèmes d’information en entreprise :
                             <div class="ml-2">
                                 <br>
                                 - Ouverture de nouveaux comptes - gestion des relations clients

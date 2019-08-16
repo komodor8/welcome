@@ -79,8 +79,8 @@
 
     <script>
         function alertProjetRequest() {
-            alert("Bonjour, Écrivez-moi pour connaître mes projets");
+            alert("Bonjour, Merci de votre intérêt. Écrivez-moi pour connaître mes projets");
         }
-        </script>
+    </script>
 </footer>
 <!-- Footer -->

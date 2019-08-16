@@ -21,7 +21,7 @@
                     <span class="ml-3"><strong>Framework laravel</strong></span>
                 </div>
                 <section>
-                    Les sites sont créés avec le framework Laravel en PHP qui offre un panel de services large et puissant. les bases de données sont gérées avec Eloquent ORM, chaque requête est gérée de façon simple, efficace et sécurisé. Il propose un constructeur de formulaire rapide, un système d’envoi de mail et entre autre un système de routage performant. Ce Framework est de plus en plus utilisé par les développeurs à travers le monde.
+                    Les sites sont créés avec le framework Laravel en PHP qui offre un panel de services large et puissant. Les bases de données sont gérées avec Eloquent ORM, chaque requête est gérée de façon simple, efficace et sécurisé. Il propose un constructeur de formulaire rapide, un système d’envoi de mail et entre autre un système de routage performant. Ce Framework est de plus en plus utilisé par les développeurs à travers le monde.
                 </section>
             </div>
 
@@ -41,7 +41,7 @@
                     <img src="/images/htmlcss.png" class="responsive">
                 </div>
                 <section>
-                    Le frontend permet la création de l'image de marque et de l'univers que vous voulez créer. J'utilise ces outils pour rendre l'expérience utilisateur unique. Parmi ces outils, on trouve le framework VueJS et la librairie jQuery pour animer vos sites. Les sites sont responsive sur tous les formats (smartphones, tablettes et PC)
+                    Le frontend permet la création de l'image de marque et de l'univers que vous voulez créer. J'utilise ces outils pour rendre l'expérience utilisateur unique. Parmi ces outils, on trouve le framework VueJS et la librairie jQuery pour animer vos sites. Les sites sont responsives sur tous les formats (smartphones, tablettes et PC).
                 </section>
             </div>
 
@@ -61,7 +61,7 @@
                     <img src="/images/processwire.png" class="responsive">
                 </div>
                 <section>
-                    l'utilisation de CMS, système de gestion de contenu en français, permet d'être utilisés simultanément par plusieurs individus, de proposer une chaîne de publication de contenu et de gérer séparément la forme et le contenu
+                    L'utilisation de CMS, système de gestion de contenu en français, permet d'être utilisé simultanément par plusieurs individus, de proposer une chaîne de publication de contenu et de gérer séparément la forme et le contenu.
                 </section>
             </div>
 

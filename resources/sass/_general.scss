@@ -2,49 +2,22 @@ body {
     font-family: "roboto", sans-serif;
 }
 
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #app {
     overflow: hidden;
+}
+
+#navbar {
+    transition: top 0.5s;
 }
 
 ul {
     list-style-type: none;
 }
-
-.show-list-circle {
-    list-style-type: circle;
-}
-
-.no-gutters {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.gutters {
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-.responsive-title {
-    width: 100%;
-    max-width: 30px;
-    height: auto;
-    max-height: 40px;
-}
-
-.responsive-title-dev {
-    width: 100%;
-    max-width: 30px;
-    height: auto;
-    max-height: 20px;
-}
-
-.responsive {
-    width: 100%;
-    max-width: 80px;
-    height: auto;
-    max-height: 80px;
-}
-
 
 strong {
   font-weight: bold;
@@ -71,6 +44,42 @@ h1 {
 }
 .bg-w100 {
     width: 100%;
+}
+
+.show-list-circle {
+    list-style-type: circle;
+}
+
+.no-gutters {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.gutters {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+//skills
+.responsive-title {
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    max-height: 40px;
+}
+
+.responsive-title-dev {
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    max-height: 20px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    max-height: 80px;
 }
 
 // If the browser window is 600px or smaller we change to 30 px

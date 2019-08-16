@@ -10648,12 +10648,45 @@ body {
   font-family: "roboto", sans-serif;
 }
 
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 #app {
   overflow: hidden;
 }
 
+#navbar {
+  transition: top 0.5s;
+}
+
 ul {
   list-style-type: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #175C71;
+}
+
+.splash-title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+.image-wrap {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bg-w100 {
+  width: 100%;
 }
 
 .show-list-circle {
@@ -10689,30 +10722,6 @@ ul {
   max-width: 80px;
   height: auto;
   max-height: 80px;
-}
-
-strong {
-  font-weight: bold;
-}
-
-.nav-link {
-  color: #175C71;
-}
-
-.splash-title {
-  font-size: 50px;
-  text-align: center;
-  font-family: "Open Sans";
-}
-
-.image-wrap {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.bg-w100 {
-  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
